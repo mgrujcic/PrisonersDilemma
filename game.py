@@ -87,7 +87,7 @@ class Game:
                 if player.isDead():
                     neighbourTypes = []
                     for i_n, j_n in self.validNeighbours(i, j):
-                        print(f"{i_n} {j_n}")
+                        #print(f"{i_n} {j_n}")
                         neighbourTypes.append(self.board[i_n][j_n].getType())
                         self.board[i_n][j_n].removeCoop(player.i, player.j)
                     self.board[i][j] = Player(random.choice(neighbourTypes), i, j)

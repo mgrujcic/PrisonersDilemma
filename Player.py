@@ -39,4 +39,4 @@ class Player():
             self.score = MAX_SCORE
 
     def isDead(self):
-        return self.score <= 0
+        return self.score < 0

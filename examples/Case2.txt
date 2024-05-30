@@ -1,0 +1,9 @@
+PRECONFIG
+7 7
+D D D D D D D
+D D D T T T D
+D D D T T T D
+D D D D D D D
+D T T T D D D
+D T T T D D D
+D D D D D D D

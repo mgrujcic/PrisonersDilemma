@@ -20,5 +20,6 @@ class time_series_data:
     def seriesToComplexes(self, max_edge_length, max_dimension):
         VR_complexes = {}
         for tactic, points in self.data.items():
+            print(f"{tactic}: {len(points)}")
             VR_complexes[tactic] = VRComplex(points, max_edge_length, max_dimension)
         return VR_complexes
