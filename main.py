@@ -11,7 +11,9 @@ for time, state in game.Game("examples/Case2.txt"):
     if (time > num_of_iters):
         break
 
-    print(state)
+    for line in state:
+        print(' '.join(line)) 
+    print('----------------------------------------')
     time_series_data_instance.update(state, time)
 
     # input()

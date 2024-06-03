@@ -54,8 +54,8 @@ class VRComplex(Complex):
     
             labels.append(str(count))
 
-        print(widths)
-        print(lefts)
+        #print(widths)
+        #print(lefts)
         fig, ax = plt.subplots()
         bars = ax.barh(y = range(0, len(widths)), width= widths, left=lefts, color=colors)
 
@@ -65,5 +65,7 @@ class VRComplex(Complex):
 
         custom_legend = [mpatches.Patch(color=color, label=label) for color, label in zip(class_color, [0, 1, 2])]
         ax.legend(handles=custom_legend, title='Dimension', loc='best')
+        labels = [str(i) for i in range(5)] + ['inf']
+        plt.xticks(range(6), labels=labels)
 
         plt.show()

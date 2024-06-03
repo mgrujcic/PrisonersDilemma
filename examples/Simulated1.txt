@@ -1,0 +1,122 @@
+SIMULATED
+7 7 15
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D T T D D D D
+D D T D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D T T D D D D
+D T T D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D T T D D D D
+D T T D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D T T D D D D
+D T T D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D T T D D D D
+D T D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D T T D D D D
+D T D D D D D
+D D D D D D D
+D D D D A D D
+D D D D D D D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D T D D D D D
+D T D D D D D
+D D D D D D D
+D D D D A D D
+D D D D D D D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D A A D
+D D D D D D D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D A A D
+D D D D D A D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D A D
+D D D D D A D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D A D
+D D D D D A D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D A D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D A D
+D D D D D D D
+-------------------------------------------
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+D D D D D D D
+-------------------------------------------

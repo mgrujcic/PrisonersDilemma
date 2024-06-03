@@ -2,6 +2,7 @@ from Tactic import randomType
 from Player import Player
 import random
 
+
 class Game:
     def __init__(self, configPath):
         self.board = []
@@ -112,3 +113,48 @@ if __name__ == "__main__":
     game_instance = Game(5, 5, None)
     print("X coordinate:", game_instance.x)
     print("Y coordinate:", game_instance.y)
+
+
+class SimulatedGame:
+
+    def __init__(self, configPath):
+        self.game = []
+        self.loadConfig(configPath)
+        self.time = 0
+
+    def loadConfig(self, path):
+        try:
+            with open(path, 'r') as file:
+                firstLine = file.readline()
+                assert firstLine.startswith('SIMULATED'), "The file does not contain a simulated game"
+                self.x, self.y, self.turns = map(int, file.readline().split(' '))
+                for t in range(self.turns):
+                    board = []
+                    for i in range(self.x):
+                        lineSetup = file.readline().split(' ')
+                        assert len(lineSetup) == self.y
+                        board.append([lineSetup[j].strip() for j in range(self.y)])
+                    self.game.append(board)
+                    file.readline()
+
+        except FileNotFoundError:
+            print(f"File '{path}' not found.")
+            return None
+
+
+    def getState(self):
+        return self.game[self.time if self.time < self.turns else -1]
+
+    def nextIteration(self):
+        self.time += 1
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        retTime = self.time
+        retState = self.getState()
+        self.nextIteration()
+        return retTime, retState
+
+        
